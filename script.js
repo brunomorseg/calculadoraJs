@@ -16,7 +16,7 @@ const appendToDisplay = (k) => {
             a = parseFloat(currentInput)
             console.log(`valor1: ${a}`)
         } else {
-                currentInputB+=k
+                currentInputB +=k
                 document.querySelector('.display').innerHTML = currentInputB
                 b = parseFloat(currentInputB)
                 console.log(`valor1: ${currentInput}, valor2: ${currentInputB}`)
@@ -57,8 +57,9 @@ const Resultado = () => {
 
    let resultado =  calcula(a,b, currentSimbolo)
     document.querySelector('.display').innerHTML = resultado 
-    console.log(`O resultado da operação é: ${resultado}`)   
+    console.log(` ${resultado}`)   
     currentInput=''
+    currentInputB=''
 }
 
 const restart = () => {

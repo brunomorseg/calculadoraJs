@@ -36,3 +36,13 @@
 .container-div-2 {
     grid-column-start: 4;
 }
+.display {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
